@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width,initial-scale=1">
 	<style>
 
 		* {
@@ -10,13 +11,13 @@
 		}
 
 		body { 
-			background-color:#CC6600;
+			background-color:#CC6600;	
 			text-align: center;
 			height:100vh;
 		}
 
 		header {
-			height: 16vh;
+			height: 13vh;
 			background-color:#FFFFFF;
 		} 
 
@@ -25,7 +26,7 @@
 		}
 
 		h1 {
-			padding-top: 5.5vh;
+			padding-top: 0.5vh;
 		}
 
 
@@ -41,7 +42,7 @@
 		}
 
 		footer{
-			height: 10vh;
+			height: 7vh;
 			background-color:#FFFFFF;		
 		}
 
@@ -114,29 +115,26 @@
 			100% {opacity:1;}
 		}
 
-		@media (max-width: 615px){
-
-			body{
-				background-color: #FFFFFF;
-			}
+		@media only screen and (max-width: 500px){
 
 			header {
-				height: 25vh;
+				height: 20vh;
 			}
 
-			h1{
-				padding:auto;
-			}
+			/*h1{
+				padding-top: 2.5vh;
+			}*/
 
 			main {
-				margin:auto;
 				width: 55vh;
-				height: 80vh;
+				height: 65vh;
+				margin:auto;
 			}
 
 			footer{
-				height: 8vh;
-				background-color:#FFFFFF;		
+				height: 15vh;
+				background-color:#FFFFFF;
+				background-color: #CC6600;		
 			}
 
 		}
